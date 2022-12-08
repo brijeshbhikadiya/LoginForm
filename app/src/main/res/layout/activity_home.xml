@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email id="
+        android:background="@color/light_gray"
+        style="@style/edit_sserif_18"
+        android:padding="5dp"/>
+
+   <TextView
+       android:layout_weight="1"
+       android:padding="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       style="@style/edit_sserif_18"
+       android:background="@color/sky_blue"
+       android:id="@+id/home_email"
+       />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password="
+        style="@style/edit_sserif_18"
+        android:padding="5dp"
+        android:background="@color/light_gray"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:padding="5dp"
+        android:id="@+id/home_password"
+        android:background="@color/sky_blue"/>
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/home_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/home_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/home_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/home_transgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transgender"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_android"
+        android:text="Android"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_java"
+        android:text="Java"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_ios"
+        android:text="ios"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_flutter"
+        android:text="Flutter"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="show Techonology"
+        style="@style/button_sserif_20"
+        android:id="@+id/home_showTechnology"/>
+</LinearLayout>
+
+
+

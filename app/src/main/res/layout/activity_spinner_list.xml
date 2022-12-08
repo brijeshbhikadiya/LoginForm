@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Spinner_List_Activity">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue"
+        android:id="@+id/spinner"
+        android:popupBackground="@color/yellow"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_edittext"
+        android:hint="Text anyone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="add text"
+        android:id="@+id/spinner_button"/>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/spinner_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search city"
+        android:layout_marginTop="10dp"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/spinner_multiautocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search multiple city"
+        android:layout_marginTop="10dp"/>
+
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Spinner_listview"/>-->
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_gridview"
+        android:numColumns="auto_fit"/>
+
+
+</LinearLayout>

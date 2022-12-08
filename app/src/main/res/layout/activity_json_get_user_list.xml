@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JsonGetUserListActivity"
+    android:orientation="vertical"
+    android:background="@drawable/banti1">
+
+    <EditText
+        android:id="@+id/Json_getUserList_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:layout_marginTop="20dp"
+        android:hint="Type"/>
+    <Button
+        android:id="@+id/Json_getUserList_Submit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/button_sserif_20"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginVertical="1dp">
+
+    <TextView
+        android:id="@+id/custom_recyclerview_name"
+        style="@style/text_sserif_20"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:background="@color/read"/>
+
+    <TextView
+        android:layout_marginHorizontal="2dp"
+        android:id="@+id/custom_recyclerview_email"
+        style="@style/text_sserif_20"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:background="@color/read"/>
+
+    <TextView
+        android:id="@+id/custom_recyclerview_contactno"
+        style="@style/text_sserif_20"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:background="@color/read"/>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:background="@color/read">
+        
+        <ImageView
+            android:id="@+id/custom_recyclerview_delete"
+            android:src="@drawable/delete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/custom_recyclerview_edit"
+            android:src="@drawable/ic_edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+    //this is first technique to recyclerview
+    &lt;!&ndash;<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <TextView
+        android:id="@+id/custom_recyclerview_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_sserif_20"
+        android:background="@color/dark_gery"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:hint="Name"
+        />
+
+        <TextView
+            android:id="@+id/custom_recyclerview_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/text_sserif_20"
+            android:background="@color/dark_gery"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:hint="Email Id"/>
+
+        <TextView
+            android:id="@+id/custom_recyclerview_contactno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/text_sserif_20"
+            android:background="@color/dark_gery"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:hint="ContactNo"/>
+
+    </LinearLayout>&ndash;&gt;
+
+    //this is second technique to recyclerview
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp">
+
+                <TextView
+                    style="@style/text_sserif_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Name"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:background="@color/dark_gery"/>
+
+                <TextView
+                    android:id="@+id/custom_recyclerview_name"
+                    style="@style/text_sserif_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:background="@color/read"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp">
+
+                <TextView
+                    style="@style/text_sserif_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Email Id"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:background="@color/dark_gery"/>
+
+                <TextView
+                    android:id="@+id/custom_recyclerview_email"
+                    style="@style/text_sserif_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:background="@color/read"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/text_sserif_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="ContactNo"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:background="@color/dark_gery"/>
+
+                <TextView
+                    android:id="@+id/custom_recyclerview_contactno"
+                    style="@style/text_sserif_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:background="@color/read"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/custom_recyclerview_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/delete"
+            android:layout_gravity="end"/>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>-->

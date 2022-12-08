@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banti1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_loginform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        style="@style/text_sserif_20"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        style="@style/edit_sserif_18"
+        android:id="@+id/main_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_loginform"
+        android:layout_marginTop="30dp"
+        android:hint="Email Id :"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_email"
+        android:layout_marginBottom="20dp"
+        android:hint="Password :"
+        android:inputType="textWebPassword"
+        style="@style/edit_sserif_18"
+        />
+
+
+    <Button
+        android:id="@+id/main_login"
+        style="@style/button_sserif_20"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/main_button"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

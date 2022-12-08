@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/drawable/costom_border.xml" value="0.173" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/drawable/custom_button.xml" value="0.22" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/drawable/ic_edit.xml" value="0.197" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/drawable/ic_menu_camera.xml" value="0.197" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_add_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_bottom_nevigation.xml" value="0.22" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_custom_list_second.xml" value="0.31354166666666666" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_custom_list_view.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_date_time.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_detail.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_jason_form.xml" value="0.33" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_jason_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_json_get_user_list.xml" value="0.309375" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_json_profile.xml" value="0.32916666666666666" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_maps.xml" value="0.1546875" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_pratice2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_pratice_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_spinner_list.xml" value="0.25" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_splash.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_sqlite_custom_list_view.xml" value="0.33" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_sqlite_database.xml" value="0.33" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_sqlite_list_view.xml" value="0.225" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/activity_tab_demo.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/connection_checker.xml" value="0.31354166666666666" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/content_detail.xml" value="0.1" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/content_navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/custom_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/custom_pratice.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/custom_recyclerview.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_call.xml" value="0.31354166666666666" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_chat.xml" value="0.31354166666666666" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_demo.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_first.xml" value="0.17552083333333332" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_notifications.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_second.xml" value="0.1109375" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/layout/fragment_status.xml" value="0.31354166666666666" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/menu/activity_main_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Session/LoginForm/app/src/main/res/menu/navigation_drawer.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JsonProfileActivity"
+    android:orientation="vertical"
+    android:background="@drawable/banti1">
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Json_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/me"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/white"/>
+
+        <ImageView
+            android:id="@+id/Json_profile_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="5dp" />
+    </FrameLayout>
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/json_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:hint="Name"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:editable="false"
+        android:id="@+id/json_profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:hint="EmailId"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/json_profile_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:hint="Password"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/json_profile_Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:hint="Contact"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/json_profile_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:hint="Date Of Birth"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:editable="false"
+        android:drawableRight="@drawable/calendar"/>
+
+    <RadioGroup
+        android:id="@+id/json_profile_gender"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:enabled="false"
+            style="@style/Radio_18"
+            android:id="@+id/json_profile_Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:enabled="false"
+            style="@style/Radio_18"
+            android:id="@+id/json_profile_Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:enabled="false"
+            style="@style/Radio_18"
+            android:id="@+id/json_profile_Transgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transgender"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <Spinner
+        android:enabled="false"
+        android:id="@+id/json_profile_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/json_profile_edit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/button_sserif_20"
+        android:text="Edit Profile"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/json_profile_submit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/button_sserif_20"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/json_profile_logout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/button_sserif_20"
+        android:text="LogOut"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JasonLoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/banti1">
+
+
+    <EditText
+        android:id="@+id/json_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:hint="EmailId"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/json_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_sserif_18"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:hint="Password"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/json_login_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        style="@style/text_sserif_20"
+        android:layout_gravity="end"
+        />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/json_login_submit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/button_sserif_20"
+        android:text="Submit"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
